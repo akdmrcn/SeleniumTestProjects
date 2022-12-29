@@ -1,4 +1,4 @@
-package seleniumPractice07;
+package seleniumStudy;
 
 import org.junit.After;
 import org.junit.Before;
@@ -9,8 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
-
-import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
 public class Books {
 
@@ -39,9 +37,9 @@ public class Books {
         }else System.out.println("Failed");
 
         // 3-Arama çubuğunda "Selenium" u aratın.
-         WebElement selenium = driver.findElement(with(By.tagName("div")).below(bookBasligi));
-         selenium.click();
-         selenium.sendKeys("Selenium");
+//         WebElement selenium = driver.findElement(with(By.tagName("div")).below(bookBasligi));
+//         selenium.click();
+//         selenium.sendKeys("Selenium");
 
        // 4-Arama sonuçlarındaki ilk ürün isminin "Selenium" içerdiğini doğrulayın.
 

@@ -1,4 +1,4 @@
-package AutomationExcersice;
+package automationExcersice;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
